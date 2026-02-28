@@ -1,8 +1,8 @@
 #Class creation
 class myClass:
 
-    #private variable
-    __privateVar=28
+    #private variable INVISIBLE to object so therefore cannot be called
+    __privateVar=28 
 
 #private method
     def __privMeth(self):

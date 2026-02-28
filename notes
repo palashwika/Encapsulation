@@ -1,0 +1,21 @@
+Encapsulation -> Core pillar of OOPS
+- concept of datawrapping
+- restricts direct access to prevent variables from being altered 
+
+HOW DOES IT WORK:
+Private variables: 
+- not open to globalspace
+- cannot access functions directly
+- accessible through modification of a function or through public functions (can store these priv variables)
+
+SYNTAX for private variables:
+ex:
+    def __init__(self,name): #constructor
+        self.__c=30 **PRIVATE variable
+
+HOW TO CALL:
+    def public_method(self): **Stores private variable
+        print(self.__c)
+
+
+Private methods??
